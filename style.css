@@ -100,7 +100,6 @@
     position: absolute;
     bottom: 20%;
     z-index: -1;
-
 }
 #con1 p{
     font-size: 20px;
@@ -108,18 +107,22 @@
     color: #6A6A6A;
 }
 #con1 .more{
-    display: block;
+    display: inline-block;
     font-size: 18px;
     font-weight: 900;
     text-decoration: underline;
-    padding-top: 140px;
+    margin-top: 140px;
+    transition: 0.2s;
+}
+#con1 .more:hover{
+    color:#BED732;
 }
 #con1 .story{
-    width: 60%;
+    width: 450px;
     height: 200px;
     margin-left:700px;
     margin-top: -150px;
-    position: relative;
+    background: #000;
 }
 #con1 .story span{
     display: inline-block;
@@ -127,16 +130,25 @@
     padding-top: 20px;
     font-weight: 600;
 }
-#con1 .story > .slick-prev {
+#con1 .story > .slick-prev::before{
     position: absolute;
-    width: 23px;
-    height: 47px;
-    background: url(/img/prev.png)no-repeat;
+    top:100px;
+    left:-45px;
+    color:#BED732;
+    font-size: 50px;
 }
-
+#con1 .story > .slick-next::before{
+    position: absolute;
+    top:110px;
+    font-size: 50px;
+    color:#BED732;
+}
 #con1 .story > .slick-next {
     position: absolute;
-    height: 47px;
-    width: 23px;
+    height: 38px;
+    width: 19px;
     background: url(/img/next.png)no-repeat;
+    z-index: 1;
 }
+
+/* con2 */
