@@ -3,30 +3,65 @@
 .headerWrap{
     width:100%;
     height:900px;
-    background: url(img/header.jpg) no-repeat center;
+}
+.headerWrap .headerbg .visual{
+    width:100%;
+    height: 100%;
+    background: url(img/visual.jpg) no-repeat center;
     background-size: cover;
-    position: relative;
 }
 .headerWrap .header{
     width:1200px;
     margin:0 auto;
-
+    color:white;
 }
 .headerWrap .menu{
     height:70px;
-    background:skyblue;
-    font-size: 12px;
+    font-size: 16px;
+    overflow: hidden;
 }
 .headerWrap .menu .logo{
-    font-size: 1.5rem;
+    float: left;
+    font-size: 25px;
+    font-weight: 900;
+    padding:35px 20px;
 }
 .headerWrap .menu ul{
     overflow: hidden;
+    float:right;
 }
 .headerWrap .menu ul li{
     float:left;
 }
 .headerWrap .menu ul li a{
     display: block;
-    padding: 20px 10px;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 45px 25px;
+    transition: 0.2s;
 }
+.headerWrap .menu ul li a:hover{
+    color:#BED732;
+    text-decoration: underline;
+}
+.header .text{
+    margin-top: 200px;
+}
+.header .text>h1{
+    font-size: 4rem;
+    line-height: 120%;
+    margin-bottom: 50px;
+}
+.header .text>div{
+    width:300px;
+    height:2px;
+    background:white;
+    margin-bottom: 50px;
+}
+.header .text>p{
+    line-height: 170%;
+}
+
+/* contents */
+
+/* con1 */
