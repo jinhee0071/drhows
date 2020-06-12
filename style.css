@@ -1,5 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/* 헤더영역 시작 */
 
-body{
-    font-family: 'Noto Sans KR', sans-serif;
+.headerWrap{
+    width:100%;
+    height:900px;
+    background: url(img/header.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.headerWrap .header{
+    width:1200px;
+    margin:0 auto;
+
+}
+.headerWrap .menu{
+    height:70px;
+    background:skyblue;
+    font-size: 12px;
+}
+.headerWrap .menu .logo{
+    font-size: 1.5rem;
+}
+.headerWrap .menu ul{
+    overflow: hidden;
+}
+.headerWrap .menu ul li{
+    float:left;
+}
+.headerWrap .menu ul li a{
+    display: block;
+    padding: 20px 10px;
 }
