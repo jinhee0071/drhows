@@ -3,12 +3,9 @@
 .headerWrap{
     width:100%;
     height:900px;
-}
-.headerWrap .headerbg .visual{
-    width:100%;
-    height: 100%;
-    background: url(img/visual.jpg) no-repeat center;
+    background: url(img/header1.jpg) no-repeat center;
     background-size: cover;
+    position: relative;
 }
 .headerWrap .header{
     width:1200px;
@@ -64,4 +61,19 @@
 
 /* contents */
 
+.contentsWrap{
+    width:100%;
+}
+.contentsWrap>div{
+    width:1200px;
+    margin:0 auto;
+}
 /* con1 */
+
+.contents .con1{
+    width:100%;
+    height:900px;
+    background: url(img/sarlimerbg.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
