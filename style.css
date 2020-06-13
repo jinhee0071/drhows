@@ -340,7 +340,7 @@
     font-weight: 900;
     text-decoration: underline;
     transition: 0.2s;
-    float:right;
+    
 }
 #con4 .more:hover{
     color:#BED732;
