@@ -128,6 +128,10 @@
     font-size: 20px;
     padding-top: 20px;
     font-weight: 600;
+    cursor: pointer;
+}
+#con1 .story span:hover{
+    text-decoration: underline;
 }
 #con1 .story > .slick-prev::before{
     position: absolute;
@@ -220,24 +224,6 @@
     left:auto;
     right:0;
 }
-.page-btns{
-    position:absolute;
-    bottom:-30px;
-    left:50%;
-    transform:translateX(-50%); 
-}
-.page-btns>div{
-    width:10px;
-    height:10px;
-    background:#BED732;
-    display:inline-block;
-    border-radius:50%;
-    cursor:pointer;
-    margin:0 5px;
-}
-.page-btns>div.active{
-    background:rgb(123, 139, 32);
-}
 
 /* con3 시작 */
 
@@ -263,6 +249,7 @@
     margin-bottom: 25px;
     position: relative;
     overflow: hidden;
+    cursor: pointer;
 }
 .con3 .product>div:nth-of-type(1),div:nth-of-type(4),div:nth-of-type(5){
     margin-bottom: 0;
@@ -331,4 +318,93 @@
 
 .con3 .product>div:hover .hover{
     left:0;
+}
+
+/* con4 시작 */
+
+#con4>div{
+    width:1200px;
+    margin:0 auto;
+}
+#con4{
+    width:100%;
+    height:900px;
+}
+.con4 .title,.sub_title{
+    text-align: center;
+}
+#con4 .more{
+    display: inline-block;
+    margin-top: -70px;
+    font-size: 18px;
+    font-weight: 900;
+    text-decoration: underline;
+    transition: 0.2s;
+    float:right;
+}
+#con4 .more:hover{
+    color:#BED732;
+}
+#con4 .event>div:first-child{
+    border-top: 1px solid #e1e1e1;
+}
+#con4 .event>div{
+    padding:30px;
+    border-bottom: 1px solid #e1e1e1;
+}
+#con4 .gbg{
+    background: #F9F9F9;
+}
+#con4 .event h5{
+    font-size: 20px;
+    color: #BED732;
+}
+#con4 .event h4{
+    font-size: 24px;
+}
+#con4 .event a:hover{
+    text-decoration: underline;
+}
+
+/* footer시작 */
+.footerWrap{
+    width:100%;
+    background: #767676;
+    color:#F2F2F2;
+}
+#footer{
+    width:1200px;
+    margin:0 auto;
+    padding:70px 0 50px;
+    position: relative;
+}
+#footer .logo{
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 50px;
+}
+#footer .call{
+    margin-left: 200px;
+    font-size: 14px;
+}
+#footer .call h4{
+    font-size: 36px;
+    font-weight: 900;
+}
+#footer .call p{
+    display: block;
+    padding:3px 0;
+    font-size: 14px;
+}
+#footer .info>p{
+    display: block;
+    padding:7px 0;
+    font-size: 14px;
+}
+#footer .bar{
+    width:1px;
+    height: 180px;
+    background: #F2F2F2;
+    position: absolute;
+    left:60%;
 }
