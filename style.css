@@ -129,6 +129,7 @@
     padding-top: 20px;
     font-weight: 600;
     cursor: pointer;
+    white-space: nowrap;
 }
 #con1 .story span:hover{
     text-decoration: underline;
@@ -185,7 +186,6 @@
 #con2 .know{
     margin-top: 100px;
     width: 100%;
-    background: blue;
 }
 
 /* con2 슬라이더 */
@@ -228,7 +228,7 @@
 /* con3 시작 */
 
 #con3>div{
-    width:1500px;
+    width:90%;
     margin:0 auto;
 }
 #con3{
@@ -245,8 +245,8 @@
     overflow: hidden;
 }
 .con3 .product>div{
-    margin-right: 25px;
-    margin-bottom: 25px;
+    margin-right: 1%;
+    margin-bottom: 1%;
     position: relative;
     overflow: hidden;
     cursor: pointer;
@@ -260,7 +260,7 @@
 .con3 .pro1{
     float: left;
     width:30%;
-    height:595px;
+    height:589px;
     background: url(img/con3\ \(3\).JPG) no-repeat center;
     background-size: cover;
 }
@@ -333,9 +333,13 @@
 .con4 .title,.sub_title{
     text-align: center;
 }
+.con4{
+    overflow: hidden;
+}
 #con4 .more{
     display: inline-block;
-    margin-top: -70px;
+    margin-top: -50px;
+    float:right;
     font-size: 18px;
     font-weight: 900;
     text-decoration: underline;
@@ -407,4 +411,176 @@
     background: #F2F2F2;
     position: absolute;
     left:65%;
+}
+
+/* 미디어쿼리 */
+@media(max-width:1240px){
+    
+.headerWrap{
+    height:850px;
+}
+.headerWrap .header{
+    width:95%;
+}
+
+/* contents */
+/* con1 시작 */
+#con1>div{
+    width:90%;
+}
+#con1 .con1{
+    padding-top: 200px;
+}
+#con1 .story{
+    width: 450px;
+    height: 200px;
+    margin-left:50%;
+    margin-top: -150px;
+    background: #000;
+}
+/* con2 시작 */
+
+#con2>div{
+    width:90%;
+}
+/* con2 슬라이더 */
+.side-btns>*{
+    display: none;
+}
+
+/* con4 시작 */
+#con4>div{
+    width:90%;
+    margin:0 auto;
+}
+
+/* footer시작 */
+#footer{
+    width:100%;
+}
+#footer .logo{
+    margin-left: 50px;
+}
+#footer .call{
+    margin-left: 150px;
+}
+#footer .call p{
+    display: block;
+    padding:3px 0;
+    font-size: 14px;
+}
+#footer .info>p{
+    display: block;
+    padding:7px 30px 7px 0;
+    font-size: 14px;
+}
+#footer .bar{
+    width:1px;
+    height: 150px;
+    background: #F2F2F2;
+    position: absolute;
+    left:65%;
+}
+}
+@media(max-width:1060px){
+    .headerWrap{
+        height:800px;
+    }
+    .headerWrap .header{
+        width:85%;
+    }
+    
+    /* contents */
+    /* con1 시작 */
+    #con1>div{
+        width:90%;
+    }
+    #con1{
+        height:600px;
+    }
+    #con1 .con1{
+        padding-top: 100px;
+    }
+    #con1 h4{
+        font-size: 26px;
+    }
+    #con1 h1{
+        font-size: 62px;
+    }
+    #con1 .story{
+        display: none;
+    }
+    #con1 .more{
+        margin-top: 90px;
+    }
+    /* con2 시작 */
+    #con2{
+        height: 720px;
+    }
+    #con2>div{
+        width:90%;
+    }
+    /* con2 슬라이더 */
+    .slider-box-1{
+        height:400px;
+        margin-top: -30px;
+    }
+
+    /* con3 시작 */
+    #con3{
+        height: 1100px;
+    }
+    .con3 .product>div:nth-of-type(1){
+        margin-bottom: 1%;
+    }
+    .con3 .product>div:nth-of-type(5){
+        margin-right: 0;
+    }
+    .con3 .pro1{
+        width:100%;
+        height:250px;
+    }
+    .con3 .pro2{
+        width:49%;
+        height:250px;
+    }
+    .con3 .pro3{
+        width:50%;
+        height:250px;
+    }
+    .con3 .pro4{
+        width:49%;
+        height:250px;
+    }
+    .con3 .pro5{
+        width:50%;
+        height:250px;
+    }
+    /* footer시작 */
+    #footer{
+        width:100%;
+    }
+    #footer .logo{
+        margin-left: 50px;
+    }
+    #footer .call{
+        margin-left: 150px;
+    }
+    #footer .call p{
+        display: block;
+        padding:3px 0;
+        font-size: 14px;
+    }
+    #footer .info>p{
+        display: block;
+        padding:7px 30px 7px 0;
+        font-size: 14px;
+    }
+    #footer .bar{
+        width:1px;
+        height: 150px;
+        background: #F2F2F2;
+        position: absolute;
+        left:65%;
+    }
 }
