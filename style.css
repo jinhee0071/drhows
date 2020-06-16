@@ -511,7 +511,7 @@
         display: none;
     }
     #con1 .more{
-        margin-top: 90px;
+        margin-top: 50px;
     }
     /* con2 시작 */
     #con2{
@@ -564,7 +564,9 @@
         margin-left: 50px;
     }
     #footer .call{
-        margin-left: 150px;
+        float:right;
+        margin-left: 0;
+        width:40%;
     }
     #footer .call p{
         display: block;
@@ -572,15 +574,24 @@
         font-size: 14px;
     }
     #footer .info>p{
-        display: block;
-        padding:7px 30px 7px 0;
-        font-size: 14px;
+        display: none;
     }
     #footer .bar{
-        width:1px;
-        height: 150px;
-        background: #F2F2F2;
-        position: absolute;
-        left:65%;
+      display: none;
+    }
+}
+@media(max-width:768px){
+    .headerWrap{
+        height:700px;
+    }
+    #con4{
+        height:850px;
+    }
+    #con4 .event h5{
+        font-size: 15px;
+        color: #BED732;
+    }
+    #con4 .event h4{
+        font-size: 19px;
     }
 }
