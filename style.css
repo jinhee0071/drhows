@@ -190,8 +190,8 @@
 
 /* con2 슬라이더 */
 .slider-box-1{
-    height:520px;
-    margin-top: 100px;
+    height:600px;
+    margin-top: -50px;
     position:relative;
 }
 .slider-box-1::after{
@@ -216,13 +216,13 @@
 .side-btns>*{
     position:absolute;
     top:50%;
-    left:0;
+    left:-50px;
     font-size:3rem;
     transform:translateY(-50%);
 }
 .side-btns>button:last-child{
     left:auto;
-    right:0;
+    right:-50px;
 }
 
 /* con3 시작 */
